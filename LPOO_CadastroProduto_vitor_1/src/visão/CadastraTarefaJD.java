@@ -16,7 +16,7 @@ public class CadastraTarefaJD extends javax.swing.JDialog {
 
     private Tarefa tarefa;
 
-    public void carregaTarefa() { // carega a categoria contuda en categoeia curso para as tarefas
+    public void carregaTarefa() { // carega a categoria contida en categoeia curso para as tarefas
 
         CBCursoCT.removeAll();
         for (CategoriaCurso cat : CategoriaCurso.values()) {
